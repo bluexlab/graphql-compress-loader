@@ -1,0 +1,17 @@
+{
+  "name": "graphql-compression-loader",
+  "version": "0.1.0",
+  "author": "BlueXLab",
+  "description": "A loader to compress graphql query before loaded into graphql-tag",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "graphql-query-compress": "^1.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluexlab/graphql-compress-loader.git"
+  }
+}
