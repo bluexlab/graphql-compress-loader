@@ -23,3 +23,18 @@ module.exports = {
   }
 }
 ```
+
+**vue.config.js**
+```js
+chainWebpack: config => {
+  config.module
+    .rule('graphql')
+    .test(/\.graphql$/)
+    .use('graphql-tag/loader')
+      .loader('graphql-tag/loader')
+      .end()
+    .use('compress')
+      .loader('@bluexlab/graphql-compression-loader')
+      .end()
+},
+```
